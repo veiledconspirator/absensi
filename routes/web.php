@@ -46,4 +46,4 @@ Route::resource('rooms', RoomController::class);
 Route::resource('dashboard', SiswaController::class);
 Route::resource('absences', AbsenceController::class);
 
-Route::post('/absen/update', 'AbsenController@update')->name('absen.update');
+// Route::post('/absen/update', 'AbsenController@update')->name('absen.update');
