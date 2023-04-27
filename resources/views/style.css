@@ -1,0 +1,1 @@
+$siswas = Siswa::paginate(15);
